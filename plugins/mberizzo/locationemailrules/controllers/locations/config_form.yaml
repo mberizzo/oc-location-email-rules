@@ -1,0 +1,10 @@
+# name: 'Rules'
+form: $/mberizzo/locationemailrules/models/rule/fields.yaml
+modelClass: Mberizzo\LocationEmailRules\Models\Rule
+# defaultRedirect: rainlab/location/locations
+# create:
+#     redirect: 'rainlab/location/locations'
+#     redirectClose: rainlab/location/locations
+# update:
+#     redirect: mberizzo/locationemailrules/products
+#     redirectClose: mberizzo/locationemailrules/products

@@ -1,0 +1,20 @@
+# fields:
+#     title:
+#         label: Title
+#         span: left
+#     status:
+#         label: Status
+#         span: right
+#     exceptions:
+#         label: Products
+#         type: datatable
+#         columns:
+#             id:
+#                 type: string
+#                 title: ID
+#                 validation:
+#                     integer:
+#                         message: Please enter a number
+#             name:
+#                 type: string
+#                 title: Name

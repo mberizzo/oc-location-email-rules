@@ -1,0 +1,4 @@
+1.0.1: 'First version of LocationEmailRules'
+1.0.2:
+    - 'Add email_rules field to rainlab_location_countries'
+    - add_email_rules_to_rainlab_location_countries_table.php
