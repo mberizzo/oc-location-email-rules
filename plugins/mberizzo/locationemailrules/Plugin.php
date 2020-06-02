@@ -86,7 +86,7 @@ class Plugin extends PluginBase
         Event::listen('formBuilder.beforeSendMessage', function ($form, $data, $files) {
             $post = post();
 
-            if (! $post['country_id']) {
+            if (empty($post['country_id'])) {
                 return false;
             }
 
