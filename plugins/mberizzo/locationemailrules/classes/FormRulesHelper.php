@@ -23,7 +23,7 @@ class FormRulesHelper
     public function getContacts()
     {
         $sendTo = [];
-        $formRules = $this->rules[$this->form->id];
+        $formRules = $this->rules[$this->form->id] ?? false;
 
         if ($formRules) {
             $sendTo = $formRules['emails'] ?? [];
